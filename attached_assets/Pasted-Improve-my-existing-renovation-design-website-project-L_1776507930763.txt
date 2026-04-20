@@ -1,0 +1,76 @@
+Improve my existing renovation & design website project (Laravel + Blade or HTML/JS).
+
+⚠️ IMPORTANT:
+
+* DO NOT change the color palette (keep black, white, gold, dark blue)
+* DO NOT break existing layout
+* Only FIX and IMPROVE
+
+========================
+
+1. AUTHENTICATION (LOGIN SYSTEM)
+   ========================
+
+* Add a complete admin authentication system
+* Create login page: /admin/login
+* Use Laravel authentication (sessions)
+* Protect admin dashboard with middleware (auth)
+* Add logout button
+* Store admin user in database (email + hashed password)
+* If not exists, create default admin:
+  email: [admin@arsfactory.com](mailto:admin@arsfactory.com)
+  password: password
+
+========================
+2. LANGUAGE SWITCH (FR / EN)
+============================
+
+* Fix language switch (French / English)
+* Add working toggle button (FR | EN)
+* Use Laravel localization (resources/lang)
+* Create translation files:
+
+  * resources/lang/fr/messages.php
+  * resources/lang/en/messages.php
+* Translate all main texts:
+
+  * menu (Accueil, Services…)
+  * buttons (Contact, Projects…)
+* Keep URL structure:
+  /fr and /en
+* Save selected language in session
+
+========================
+3. DESIGN IMPROVEMENTS (NO COLOR CHANGE)
+========================================
+
+Improve UI/UX but keep same colors:
+
+* Add smooth animations (fade-in, hover transitions)
+* Improve spacing (padding, margins)
+* Improve typography (better font hierarchy)
+* Add hover effects on buttons (gold glow)
+* Add overlay on hero images for better readability
+* Improve cards (shadow, rounded corners)
+* Add scroll animations
+
+========================
+4. GALLERY IMPROVEMENT
+======================
+
+* Improve masonry layout
+* Add hover zoom effect
+* Add lightbox when clicking images
+* Optimize image loading
+
+========================
+5. CLEAN CODE
+=============
+
+* Refactor Blade templates
+* Use reusable components (header, footer, cards)
+* Keep code clean and organized
+
+========================
+GOAL:
+Make the website fully functional, professional, and premium WITHOUT changing colors.
