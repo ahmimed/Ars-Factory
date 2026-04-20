@@ -551,7 +551,7 @@
     <div class="footer-content">
         <div>
             <div class="footer-logo"><span style="color:var(--gold);">ARS</span> Factory</div>
-            <p style="margin-top:.6rem;font-size:.9rem;">Rénovation & Design haut de gamme<br>à Tanger, Maroc</p>
+            <p style="margin-top:.6rem;font-size:.9rem;">{!! nl2br(e(__('site.footer.tagline'))) !!}</p>
         </div>
         <div class="footer-links">
             <a href="{{ route('home', ['locale' => app()->getLocale()]) }}">{{ __('site.nav.home') }}</a>
@@ -566,7 +566,7 @@
             <a href="#"><i class="fab fa-linkedin-in"></i></a>
         </div>
     </div>
-    <div class="copyright">© {{ date('Y') }} ARS Factory — Tous droits réservés.</div>
+    <div class="copyright">{{ __('site.footer.copyright', ['year' => date('Y')]) }}</div>
 </footer>
 
 <!-- Lightbox -->

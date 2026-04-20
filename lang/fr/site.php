@@ -96,6 +96,10 @@ return [
         'submit' => 'Se connecter',
         'failed' => 'Ces identifiants ne correspondent à aucun administrateur.',
     ],
+    'footer' => [
+        'tagline' => 'Rénovation & Design haut de gamme' . "\n" . 'à Tanger, Maroc',
+        'copyright' => '© :year ARS Factory — Tous droits réservés.',
+    ],
     'admin' => [
         'title' => 'Dashboard admin | ARS Factory',
         'description' => 'Gérer les images de la galerie ARS Factory.',

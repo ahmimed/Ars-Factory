@@ -96,6 +96,10 @@ return [
         'submit' => 'Sign in',
         'failed' => 'These credentials do not match an administrator.',
     ],
+    'footer' => [
+        'tagline' => 'Premium renovation & design' . "\n" . 'in Tangier, Morocco',
+        'copyright' => '© :year ARS Factory — All rights reserved.',
+    ],
     'admin' => [
         'title' => 'Admin dashboard | ARS Factory',
         'description' => 'Manage ARS Factory gallery images.',
